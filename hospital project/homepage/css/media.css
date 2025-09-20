@@ -1,0 +1,275 @@
+@media (max-width: 1512px) {
+  .flex1 {
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .section1 {
+    padding-top: 30px;
+    height: 795px;
+  }
+  .white {
+    display: none;
+  }
+  .img1 img,
+  .arr21 {
+    display: none;
+  }
+  .container1 {
+    width: 750px;
+    display: flex;
+    margin: -15px;
+    flex-direction: column;
+  }
+  .Advanced {
+    font-size: 41px;
+    width: 400px;
+  }
+  .advanced2 {
+    width: 400px;
+  }
+  .arr13,
+  .arr41,
+  .arr53 {
+    font-size: 15px;
+  }
+  .arr13 span,
+  .arr41 span,
+  .arr53 span {
+    font-size: 20px;
+  }
+  .img7 {
+    display: none;
+  }
+
+  header {
+    width: 100%;
+  }
+  header div {
+    width: 1100px;
+    justify-content: center;
+  }
+  header div button {
+    right: 10px;
+  }
+  .container4 {
+    grid-template-columns: 1fr;
+  }
+  .container4 div.text2 {
+    margin-top: 125px;
+    margin-left: 30px;
+  }
+  .container4 .text3,
+  .container4 .text4 {
+    margin-left: 40px;
+  }
+  .container3 {
+    height: 1700px;
+  }
+  
+  .flex6 {
+    margin-top: 500px;
+    height: 1826px;
+  }
+  .flex7 {
+    height: 1670px;
+  }
+  .section6 {
+    flex-direction: column;
+  }
+  form {
+    margin: 90px -20px 10px 0px;
+  }
+  .gridn2 div {
+    justify-content: flex-end;
+  }
+  .blog:not(button) {
+    height: 912px;
+  }
+   footer {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1085px) {
+  header ul {
+    display: none;
+    /* display: inline; */
+    margin: auto;
+    position: absolute;
+    font-size: 80px;
+  }
+  header ul li {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    border: 3px solid;
+    width: 1085px;
+    left: 0;
+    border-color: transparent transparent #0000002e;
+  }
+  header ul li:nth-child(1) {
+    margin-top: 60px;
+  }
+  .continer2 {
+    width: 750px;
+    bottom: 153px;
+    height: 300px;
+    grid-template-columns: repeat(5, 150px);
+    grid-template-rows: repeat(3, 150.7246377px);
+  }
+  .arr21 img,
+  .arr51 img,
+  .arr52 img,
+  .arr21::after,
+  .arr52::after {
+    width: 150px;
+    height: 150.7246377px;
+  }
+  .arr22 img {
+    width: 300px;
+    height: 301px;
+  }
+  .arr22::after {
+    width: 300px;
+    height: 301px;
+  }
+  i.fa-bars-staggered {
+    display: block;
+  }
+  .img8 {
+    display: none;
+  }
+  .img10 {
+    display: none;
+  }
+  .img9 {
+    display: none;
+  }
+  .container2 {
+    width: 534px;
+    height: 500px;
+    grid-template-columns: repeat(1, auto);
+  }
+  .container2 div.text3 {
+    grid-column-start: 1;
+  }
+  .flex2 {
+    margin-bottom: 150px;
+  }
+  .gridn2 {
+    margin: 0 40px;
+  }
+  .flex6 {
+    height: 2400px;
+  }
+  .this4 img {
+    display: none;
+  }
+}
+/* @media (max-width: 768px) */
+
+@media (max-width: 768px) {
+  header ul li {
+    margin-left: -20px;
+  }
+  .container3 {
+    width: 500px;
+    height: 2665px;
+  }
+  i.fa-bars-staggered {
+    position: static;
+  }
+  .container1 {
+    width: 400px;
+  }
+  .arr13 {
+    display: none;
+  }
+  header div a button {
+    width: 80px;
+    height: 36px;
+    position: static;
+  }
+  .arr22 img {
+    display: none;
+  }
+  .arr22::after {
+    display: none;
+  }
+  header div span {
+    font-size: 25px;
+  }
+  header div {
+    gap: 45px;
+    margin: 30px 10px 5px;
+  }
+  header div img {
+    margin-right: -32px;
+  }
+  i.fa-bars-staggered {
+    margin-top: 5px;
+  }
+  .container2 {
+    width: 362px;
+  }
+  .container2 div.text2 {
+    width: 365px;
+  }
+  .container2 div.text3 {
+    width: 368px;
+  }
+  .container1 {
+    width: 373px;
+  }
+  .Advanced {
+    font-size: 41px;
+    width: 373px;
+  }
+  .advanced2 {
+    width: 373px;
+    margin: 5px 0 10px 0;
+  }
+  .flex2 {
+    margin-bottom: 150px;
+    margin-top: -40px;
+  }
+  .Allgrid {
+    margin: 0 25px;
+  }
+  .img15 {
+    width: 430px;
+  }
+  .container4 div.text3 {
+    width: 350px;
+    height: 259px;
+  }
+  .container5 div.teams {
+    margin-top: 100px;
+  }
+  .container5 div.detail {
+    width: 327px;
+  }
+  .flex6 {
+    height: 2400px;
+  }
+  .empty {
+    display: none;
+  }
+  .flex8 {
+    display: none;
+  }
+  .blog:not(button) {
+    height: 1300px;
+  }
+}
+
+@media (max-width: 660px) {
+  .flex6 {
+    height: 4200px;
+  }
+  .section6-info {
+    width: 300px;
+  }
+}

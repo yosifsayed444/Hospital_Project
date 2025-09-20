@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="fontawesome-free-6.7.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="../../clinck/CSS/footer.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div>
+        <i onclick="appear()" class="fa-solid fa-bars-staggered"></i>
+        <img src="images/img" alt="" />
+        <span> <a href="../homepage/index.html">Healthpoint</a></span>
+
+        <ul>
+          <li><a href="../../clinck/HTML/Services.html">Services</a></li>
+          <li><a href="../../clinck/HTML/Doctors.html">Doctors</a></li>
+          <li><a href="../../project mido/blog/blog.html">Blog</a></li>
+          <li><a href="../../clinck/HTML/AboutUs.html">About</a></li>
+          <li><a href="../../project mido/contact/contact.html">Contact</a></li>
+          <li class="lin" onclick="poplogin()">Sign in</li>
+        </ul>
+        <a href="../paytype/paytype/paytype.html"><button>Buy Now</button></a>
+      </div>
+    </header>
+    <!--  -->
+
+    <div class="container">
+      <i onclick="poplogino()" class="fa-solid fa-xmark"></i>
+      <div class="tabs">
+        <div class="Sign-in" onclick="signin()">Sign in</div>
+        <div class="Register" onclick="Register()">Register</div>
+      </div>
+      <div class="line1" style="margin-top: -15px"></div>
+      <div class="all">
+        <form class="form2">
+          <div class="email">
+            <label>Username Or Email</label>
+            <input
+              id="user"
+              type="email"
+              placeholder="example@example.com"
+              required
+            />
+          </div>
+          <div class="password">
+            <label>Password</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter your Password"
+              required
+            />
+            <button id="btn-eye">
+              <i class="fa-solid fa-eye-slash icon"></i>
+            </button>
+          </div>
+          <div class="remember-forgot">
+            <label class="remember-label"
+              ><input type="checkbox" />Keep me signed in</label
+            >
+            <a href="#">Lost Your Password?</a>
+          </div>
+          <button onclick="savedata()" type="submit" class="login">
+            sign in
+            <span class="arrow"><ion-icon name="flash"></ion-icon></span>
+          </button>
+        </form>
+      </div>
+      <div class="or">OR</div>
+      <div class="social-media">
+        <button class="facebook">
+          <i class="fa-brands fa-facebook"></i>
+          <p>Login with Facebook</p>
+        </button>
+        <button class="google">
+          <i class="fa-brands fa-google"></i>
+          <p>Login with Google</p>
+        </button>
+      </div>
+    </div>
+    <!--  -->
+
+    <!--  -->
+
+    <div class="resistor">
+      <i onclick="poplogino()" class="fa-solid fa-xmark"></i>
+      <div class="tabs">
+        <div class="Sign-in" onclick="signin()">Sign in</div>
+        <div class="Register1" onclick="Register()">Register</div>
+      </div>
+      <div class="line1" style="margin-top: -15px"></div>
+      <div class="all">
+        <form class="form2">
+          <div class="email">
+            <label>Username Or Email</label>
+            <input
+              id="userNew"
+              type="email"
+              placeholder="example@example.com"
+              required
+            />
+          </div>
+          <div class="password">
+            <label>Password</label>
+            <input
+              type="password"
+              id="password2"
+              placeholder="Enter your Password"
+              required
+            />
+            <button id="btn-eye2">
+              <i class="fa-solid fa-eye-slash icon3"></i>
+            </button>
+          </div>
+          <div class="password">
+            <label>Re-enter Password</label>
+            <input
+              type="password"
+              id="re-password"
+              placeholder="Re-enter your Password"
+              required
+            />
+            <button id="btn-eye1">
+              <i class="fa-solid fa-eye-slash icon1"></i>
+            </button>
+          </div>
+          <button onclick="checkdata()" type="submit" class="login">
+            Login
+            <span class="flash"><ion-icon name="flash"></ion-icon></span>
+          </button>
+        </form>
+      </div>
+      <div class="or">OR</div>
+      <div class="social-media">
+        <button class="facebook">
+          <i class="fa-brands fa-facebook"></i>
+          <p>Login with Facebook</p>
+        </button>
+        <button class="google">
+          <i class="fa-brands fa-google"></i>
+          <p>Login with Google</p>
+        </button>
+      </div>
+    </div>
+
+    <!--  -->
+
+    <!--  -->
+    <div class="flex1 section">
+      <div>
+        Pulmonology & Lung Diseases
+        <p>
+          Our Pulmonology Department provides expert care for a wide range of
+          lung and respiratory conditions. From chronic diseases like asthma and
+          COPD to complex infections and interstitial lung disorders, our
+          specialists offer accurate diagnosis and tailored treatment plans.
+          Using advanced imaging, pulmonary function tests, and minimally
+          invasive procedures, we are committed to improving your breathing,
+          quality of life, and overall lung health in a supportive and caring
+          environment.
+        </p>
+        <span
+          ><span><a href="../homepage/index.html">Home</a></span
+          >> Services</span
+        >
+      </div>
+    </div>
+    <div class="flex2">
+      <div class="container1 section">
+        <div class="box">
+          <div class="our">Our Services</div>
+          <a href="../Cardiology/Cardiology.html"
+            ><div class="div1">
+              Cardiology <i class="fa-solid fa-chevron-right"></i></div
+          ></a>
+          <a href="../Radiology/Radiology.html"
+            ><div class="div1">
+              Radiology <i class="fa-solid fa-chevron-right"></i></div
+          ></a>
+          <a href="../Gynecology/Gynecology.html"
+            ><div class="div1">
+              Gynecology <i class="fa-solid fa-chevron-right"></i></div
+          ></a>
+          <a href="../Sports Injury/Sports Injury.html"
+            ><div class="div1">
+              Sports Injury <i class="fa-solid fa-chevron-right"></i></div
+          ></a>
+          <a href="../Lung Diseases/Lung Diseases.html"
+            ><div class="div1">
+              Lung Diseases <i class="fa-solid fa-chevron-right"></i></div
+          ></a>
+          <a href="../Eye Care /Eye Care .html"
+            ><div class="div1">
+              Eye Care <i class="fa-solid fa-chevron-right"></i></div
+          ></a>
+        </div>
+        <div class="box2">
+          <img src="images/ten-reasons-you-must-have-a-primary-care-doctor.webp" alt="" />
+          <div class="div2">
+            <div class="Support">Support Groups for Depression</div>
+            <div class="div3">
+              We understand that mental health matters. Our support groups offer
+              a safe and caring space for patients dealing with depression.
+              <div class="div4">
+                Join others on the path to healing, guided by trained
+                professionals who listen and support your journey.
+              </div>
+            </div>
+            <div class="div5">
+              <span
+                ><i class="fa-solid fa-circle-check"></i>Weekly group sessions
+                with licensed therapists
+              </span>
+              <span
+                ><i class="fa-solid fa-circle-check"></i> Free registration for
+                all patients
+              </span>
+              <span
+                ><i class="fa-solid fa-circle-check"></i>Open to individuals and
+                families
+              </span>
+            </div>
+            <div class="Support">Online simple step for appointment</div>
+            <div class="div7">
+              Booking your appointment has never been easier. Just follow these
+              three simple steps:
+            </div>
+            <div class="colors">
+              <div class="color1">
+                <div class="colorcon">
+                  <div>1)</div>
+                  <div>Make Appointment</div>
+                  <span>Schedule your visit at a time that works for you.</span>
+                </div>
+              </div>
+              <div class="color2">
+                <div class="colorcon">
+                  <div>2)</div>
+                  <div>Select Doctor</div>
+                  <span>
+                    Choose the right specialist from our expert team.</span
+                  >
+                </div>
+              </div>
+              <div class="color3">
+                <div></div>
+                <div class="colorcon">
+                  <div>3)</div>
+                  <div>Get Consultation</div>
+                  <span>Meet your doctor and begin your treatment plan.</span>
+                </div>
+              </div>
+            </div>
+            <div class="Support">How is the Emergency Department staffed?</div>
+            <div class="div3">
+              Our Emergency Department is open 24/7 and staffed with experienced
+              doctors, nurses, and medical technicians. We are always ready to
+              handle urgent cases with speed, care, and professionalism.
+
+              <div class="div5">
+                <span
+                  ><i class="fa-solid fa-circle-check"></i> Rapid response team
+                  always on-site
+                </span>
+                <span
+                  ><i class="fa-solid fa-circle-check"></i> Specialized staff
+                  trained in emergency care
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex7">
+      <div class="section6 section">
+        <div class="section6-info">
+          <h2>
+            Get Quick Free <br />
+            Professional Consultation
+          </h2>
+          <div class="section6-info-details-1">
+            <img src="../images/clock (2) 1.svg" class="logo-3" alt="" />
+            <div class="text-3">Mon-Fri : <span> 9:00 am - 10:00 pm</span></div>
+            <div class="text-3">Sat-Sun : <span> 9:00 am - 8:00 pm</span></div>
+          </div>
+          <div class="section6-info-details-2">
+            <img src="../images/Group.svg" alt="" class="logo-3" />
+            <div class="text-3">Phone : <span>+(690) 2560 0020</span></div>
+            <div class="text-3">
+              Email : <span>booking@healthpoint.com</span>
+            </div>
+          </div>
+          <div class="section6-info-details-3">
+            <img src="../images/Group (1).svg" alt="" class="logo-3" />
+            <div class="text-3">
+              Address :
+              <span
+                >Healthpoint <br />
+                4263 Wilkinson Street <br />Tennessee</span
+              >
+            </div>
+          </div>
+          <a href="../../project mido/contact/contact.html" class="btn">View location Map</a>
+        </div>
+        <div class="empty">
+          <form action="">
+            <div class="section6-form">
+              <div>
+                <label for="Full">Name</label>
+                <input id="Full" type="text" placeholder="Full Name" required />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="Email address"
+                  required
+                  class="left"
+                />
+              </div>
+
+              <div>
+                <label for="Phone">Phone</label>
+                <input id="Phone" type="text" placeholder="Phone" />
+              </div>
+              <div>
+                <label for="Departement">Department</label>
+                <input
+                  id="Departement"
+                  type="text"
+                  placeholder="Departement"
+                  class="left"
+                />
+              </div>
+
+              <div>
+                <label for="email">Time</label>
+                <input
+                  id="email"
+                  type="time"
+                  placeholder="Phone Number"
+                  required
+                />
+              </div>
+              <div>
+                <label for="time">The Date</label>
+                <input id="time" type="date" placeholder="Time" />
+              </div>
+              <div class="Message">
+                <label for="Message">Message</label>
+                <textarea
+                  itemid="Message"
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="section">
+      <div class="footer-container">
+        <div class="final">
+          <img src="../images/Vector.svg" alt="" />
+          <span>Healthpoint</span>
+          <p>
+            We deliver trusted healthcare information and services <br>
+            to explore the latest in medical innovation and care.
+          </p>
+          <div class="email">
+            <input type="email" placeholder="Email address">
+            <a href="#">subscribe</a>
+          </div>
+        </div>
+        <div class="quick-links">
+          <p>Quick Links</p>
+          <div class="quick-links-items-list">
+            <a class="quick-links-item" href="../homepage/index.html">Home</a><br />
+            <a class="quick-links-item" href="../../clinck/HTML/Doctors.html">Doctors</a><br />
+            <a class="quick-links-item" href="../../clinck/HTML/AboutUs.html">About Us</a><br />
+            <a class="quick-links-item" href="../../clinck/HTML/Services.html">Services</a><br />
+            <a class="quick-links-item" href="../../project mido/contact/contact.html">Contact Us</a><br />
+            <a class="quick-links-item" href="../../project mido/blog/blog.html">Blog</a><br />
+          </div>
+        </div>
+        <div class="our-brands">
+          <p>Departments</p>
+          <ul>
+            <li>Cardiology</li>
+            <li>Sports Injury</li>
+            <li>Radiology</li>
+            <li>Lung Diseases</li>
+            <li>Gynecology</li>
+            <li>Eye Care</li>
+          </ul>
+        </div>
+        <div class="socials " style="margin-top:0;">
+          <p>Our Mobile App</p>
+          <div class="social-icon-box">
+            <i class="fa-brands fa-apple apple-logo"></i>
+            <a href="https://www.apple.com/app-store/" class="download-button-text">
+              <p>Download on the Apple Store</p>
+            </a>
+          </div>
+          <div class="social-icon-box">
+            <i class="fa-brands fa-google-play google-play-logo"></i>
+            <a href="https://play.google.com/store/games?device=windows" class="download-button-text">
+              <p>Get it on Google Play</p>
+            </a>
+          </div>
+          <p>Connect With Us</p>
+          <div class="social-connect-icons">
+            <a href="https://www.facebook.com/">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://x.com/"> <i class="fa-brands fa-twitter"></i> </a>
+            <a href="https://www.instagram.com/">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+    
+        <div class="copy-right-div">
+          <p id="copy-right">© 2025 Healthpoint.com. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="../homepage/js/main.js"></script>
+  </body>
+</html>

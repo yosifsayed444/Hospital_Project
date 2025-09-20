@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="../contact/css/header.css">
+    <link rel="stylesheet" href="../../hospital project/Cardiology/css/login.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/footer_boldozer.css">
+</head>
+<body>
+    <!-- <header>
+        <div class="container section">
+            <div class="sec1">
+                <div>
+                    
+                        <img src="image/Vector.png" alt=""> 
+                    <a href="../../hospital project/homepage/index.html"><h2>Health Point</h2></a>
+                </div>
+                <div class="links-header">
+                    <a href="../../clinck/HTML/Services.html">
+                        <p>services</p></a>
+                    <a href="../../clinck/HTML/Doctors.html">
+                        <p>Doctors</p>
+                    </a>
+                    <a href="../blog/blog.html">
+                        <p>Blog</p>
+                    </a>
+                    <a href="../../clinck/HTML/AboutUs.html">
+                        <p>About</p>
+                    </a>
+                    <a href="../contact/contact.html">
+                        <p>contact</p>
+                    </a>
+                </div>
+                <a href="../../hospital project/paytype/paytype/paytype.html">
+                    <button>Buy Now</button>
+                </a>
+                
+                <hr>
+            </div>
+            
+            <img src="image/Rectangle 475.png" class="img1" alt="">
+            <img src="image/Rectangle 473.png" class="img2" alt="">
+            <img src="image/Rectangle 476.png" class="img3" alt="">
+            <img src="image/Rectangle 473.png" class="img4" alt=""> 
+        </div>
+    </header>
+ -->
+    <header>
+      <div>
+        <i class="fa-solid fa-bars-staggered"></i>
+        <img src="image/Vector.png" alt="" />
+        <span> <a href="../../hospital project/homepage/index.html">Healthpoint</a></span>
+
+        <ul>
+          <li><a href="../../clinck/HTML/Services.html">Services</a></li>
+          <li><a href="../../clinck/HTML/Doctors.html">Doctors</a></li>
+          <li><a href="../blog/blog.html">Blog</a></li>
+          <li><a href="../../clinck/HTML/AboutUs.html">About</a></li>
+          <li><a href="../contact/contact.html">Contact</a></li>
+          <li class="lin" onclick="poplogin()">Sign in</li>
+        </ul>
+        <a href="../../hospital project/paytype/paytype/paytype.html"><button>Buy Now</button></a>
+      </div>
+    </header>
+
+    <!--  -->
+
+    <div class="container">
+      <i onclick="poplogino()" class="fa-solid fa-xmark"></i>
+      <div class="tabs">
+        <div class="Sign-in" onclick="signin()">Sign in</div>
+        <div class="Register" onclick="Register()">Register</div>
+      </div>
+      <div class="line1" style="margin-top: -15px"></div>
+      <div class="all">
+        <form class="form2">
+          <div class="email">
+            <label>Username Or Email</label>
+            <input
+              id="user"
+              type="email"
+              placeholder="example@example.com"
+              required
+            />
+          </div>
+          <div class="password">
+            <label>Password</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter your Password"
+              required
+            />
+            <button id="btn-eye">
+              <i class="fa-solid fa-eye-slash icon"></i>
+            </button>
+          </div>
+          <div class="remember-forgot">
+            <label class="remember-label"
+              ><input type="checkbox" />Keep me signed in</label
+            >
+            <a href="#">Lost Your Password?</a>
+          </div>
+          <button onclick="savedata()" type="submit" class="login">
+            sign in
+            <span class="arrow"><ion-icon name="flash"></ion-icon></span>
+          </button>
+        </form>
+      </div>
+      <div class="or">OR</div>
+      <div class="social-media">
+        <button class="facebook">
+          <i class="fa-brands fa-facebook"></i>
+          <p>Login with Facebook</p>
+        </button>
+        <button class="google">
+          <i class="fa-brands fa-google"></i>
+          <p>Login with Google</p>
+        </button>
+      </div>
+    </div>
+    <!--  -->
+
+    <!--  -->
+
+    <div class="resistor">
+      <i onclick="poplogino()" class="fa-solid fa-xmark"></i>
+      <div class="tabs">
+        <div class="Sign-in" onclick="signin()">Sign in</div>
+        <div class="Register1" onclick="Register()">Register</div>
+      </div>
+      <div class="line1" style="margin-top: -15px"></div>
+      <div class="all">
+        <form class="form2">
+          <div class="email">
+            <label>Username Or Email</label>
+            <input
+              id="userNew"
+              type="email"
+              placeholder="example@example.com"
+              required
+            />
+          </div>
+          <div class="password">
+            <label>Password</label>
+            <input
+              type="password"
+              id="password2"
+              placeholder="Enter your Password"
+              required
+            />
+            <button id="btn-eye2">
+              <i class="fa-solid fa-eye-slash icon3"></i>
+            </button>
+          </div>
+          <div class="password">
+            <label>Re-enter Password</label>
+            <input
+              type="password"
+              id="re-password"
+              placeholder="Re-enter your Password"
+              required
+            />
+            <button id="btn-eye1">
+              <i class="fa-solid fa-eye-slash icon1"></i>
+            </button>
+          </div>
+          <button onclick="checkdata()" type="submit" class="login">
+            Login
+            <span class="flash"><ion-icon name="flash"></ion-icon></span>
+          </button>
+        </form>
+      </div>
+      <div class="or">OR</div>
+      <div class="social-media">
+        <button class="facebook">
+          <i class="fa-brands fa-facebook"></i>
+          <p>Login with Facebook</p>
+        </button>
+        <button class="google">
+          <i class="fa-brands fa-google"></i>
+          <p>Login with Google</p>
+        </button>
+      </div>
+    </div>
+
+    <!--  -->
+    <!--  -->
+
+    <!--  -->
+    <div class="flex1 section">
+        <div class="detales">
+                    <div class="logo">
+                <h1> Blog </h1>
+                <p>Stay updated with the latest news, insights, and breakthroughs in healthcare and medical science.</p>
+            </div>
+      </div>        
+                    
+                </div>
+    </div>
+    <div class="sec2 section">
+        <div class="container9">
+            <div class="detals">
+                <div class="image-1">
+                    <img src="image/Rectangle 342 (2).png" style="width: 320px;" alt="">
+                    <p>Revolutionizing Healthcare: Breakthroughs in Modern Medicine</p>
+                    <span>16 Hours ago</span>
+                    <p>pricing</p>
+                </div>
+                <div class="image-2">
+                    <img src="image/Rectangle 592.png" style="width: 320px;" alt="">
+                    <p>Navigating Wellness: Tips for a Healthier Lifestyle Today</p>
+                    <span>5 Days ago</span>
+                    <p>meeting</p>
+                </div>
+                <div class="image-3">
+                    <img src="image/Rectangle 594.png" style="width: 320px;" alt="">
+                    <p>From Symptoms to Solutions: Exploring the Medical Journey</p>
+                    <span>20-04-2022</span>
+                    <p>updates</p>
+                </div>
+                <div class="image-4">
+                    <img src="image/Rectangle 342.png" style="width: 320px;"  alt="">
+                    <p>Understanding Vital Signs: The Rhythm of Your Health</p>
+                    <span>16 Hours ago</span>
+                    <p>pricing</p>
+                </div>
+                <div class="image-5">
+                    <img src="image/Rectangle 597.png" style="width: 320px;"  alt="">
+                    <p>Behind the Scenes: Real Stories of Recovery and Resilience</p>
+                    <span>1 Day ago</span>
+                    <p>meeting</p>
+                </div>
+                <div class="image-6">
+                    <img src="image/Rectangle 594 (1).png" style="width: 320px;"  alt="">
+                    <p>From Research to Results: Innovations Shaping Modern Care</p>
+                    <span>25-04-2022</span>
+                    <p>updates</p>
+                </div>
+                <div class="image-7">
+                    <img src="image/Rectangle 342 (1).png" style="width: 320px;"  alt="">
+                    <p>Holistic Healing: Balancing Mind, Body, and Spirit</p>
+                    <span>10 Hours ago</span>
+                    <p>pricing</p>
+                </div>
+                <div class="image-8">
+                    <img src="image/Rectangle 592 (1).png" style="width: 320px;"  alt="">
+                    <p>Inside the Clinic: What Modern Healthcare Looks Like</p>
+                    <span>14 Days ago</span>
+                    <p>meeting</p>
+                </div>
+                <div class="image-9">
+                    <img src="image/Rectangle 594 (2).png" style="width: 320px;"  alt="">
+                    <p>The Future of Medicine: Discoveries That Save Lives</p>
+                    <span>01-04-2022</span>
+                    <p>updates</p>
+                </div>
+            </div>  
+              
+        </div>
+       
+    </div>
+    <footer class="section">
+        <div class="footer-container">
+            <div class="final">
+                <img src="./image/Vector.png" alt="" />
+                <span>Healthpoint</span>
+                <p>
+                    We deliver trusted healthcare information and services <br>
+                    to explore the latest in medical innovation and care.
+                </p>
+                <div class="email">
+                    <input type="email" placeholder="Email address">
+                    <a href="#">subscribe</a>
+                </div>
+            </div>
+            <div class="quick-links">
+                <p>Quick Links</p>
+                <div class="quick-links-items-list">
+                    <a class="quick-links-item" href="../../hospital project/homepage/index.html">Home</a><br />
+                    <a class="quick-links-item" href="../../clinck/HTML/Doctors.html">Doctors</a><br />
+                    <a class="quick-links-item" href="../../clinck/HTML/AboutUs.html">About Us</a><br />
+                    <a class="quick-links-item" href="../../clinck/HTML/Services.html">Services</a><br />
+                    <a class="quick-links-item" href="../contact/contact.html">Contact Us</a><br />
+                    <a class="quick-links-item" href="../blog/blog.html">Blog</a><br />
+                </div>
+            </div>
+            <div class="our-brands">
+                <p>Departments</p>
+                <ul>
+                    <li>Cardiology</li>
+                    <li>Sports Injury</li>
+                    <li>Radiology</li>
+                    <li>Lung Diseases</li>
+                    <li>Gynecology</li>
+                    <li>Eye Care</li>
+                </ul>
+            </div>
+            <div class="socials" style="margin-top: 0;">
+                <p>Our Mobile App</p>
+                <div class="social-icon-box">
+                    <i class="fa-brands fa-apple apple-logo"></i>
+                    <a href="https://www.apple.com/app-store/" class="download-button-text">
+                        <p>Download on the Apple Store</p>
+                    </a>
+                </div>
+                <div class="social-icon-box">
+                    <i class="fa-brands fa-google-play google-play-logo"></i>
+                    <a href="https://play.google.com/store/games?device=windows" class="download-button-text">
+                        <p>Get it on Google Play</p>
+                    </a>
+                </div>
+                <p>Connect With Us</p>
+                <div class="social-connect-icons">
+                    <a href="https://www.facebook.com/">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://x.com/"> <i class="fa-brands fa-twitter"></i> </a>
+                    <a href="https://www.instagram.com/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="copy-right-div">
+                <p id="copy-right">© 2025 Healthpoint.com. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+<script src="../../hospital project/homepage/js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+@media (max-width: 1512px) {
+  header div {
+    width: 1100px;
+    justify-content: center;
+  }
+  header div button {
+    right: 10px;
+  }
+  header ul li:hover {
+    opacity: 1;}
+}
+
+@media (max-width: 1085px) {
+  header ul {
+    display: none;
+    margin: auto;
+    position: absolute;
+    font-size: 80px;
+  }
+  header ul li {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    border: 3px solid;
+    width: 1085px;
+    left: 0;
+    border-color: transparent transparent #0000002e;
+  }
+  header ul li:nth-child(1) {
+    margin-top: 60px;
+  }
+  i.fa-bars-staggered {
+    display: block;
+  }
+  header div {
+    width: 1100px;
+    justify-content: center;
+  }
+  header div button {
+    right: 10px;
+  }
+  header div button {
+    right: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  header div span {
+    font-size: 25px;
+  }
+  header div span {
+    font-size: 25px;
+  }
+  header div {
+    gap: 45px;
+    margin: 30px 10px 5px;
+  }
+  header div img {
+    margin-right: -32px;
+  }
+  i.fa-bars-staggered {
+    margin-top: 5px;
+  }
+  header div img {
+    margin-right: -32px;
+  }
+  header div a button {
+    width: 80px;
+    height: 36px;
+    position: static;
+  }
+  i.fa-bars-staggered {
+    position: static;
+  }
+  i.fa-bars-staggered {
+    margin-top: 5px;
+  }
+  header ul li {
+    margin-left: -20px;
+  }
+}

@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="fontawesome-free-6.7.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="../Cardiology/css/login.css" />
+    <link rel="stylesheet" href="../../clinck/CSS/footer.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div>
+        <i class="fa-solid fa-bars-staggered"></i>
+        <img src="images/img" alt="" />
+        <span> <a href="../homepage/index.html">Healthpoint</a></span>
+
+        <ul>
+          <li><a href="../../clinck/HTML/Services.html">Services</a></li>
+          <li><a href="../../clinck/HTML/Doctors.html">Doctors</a></li>
+          <li><a href="../../project mido/blog/blog.html">Blog</a></li>
+          <li><a href="../../clinck/HTML/AboutUs.html">About</a></li>
+          <li><a href="../../project mido/contact/contact.html">Contact</a></li>
+          <li class="lin" onclick="poplogin()">Sign in</li>
+        </ul>
+        <a href="../paytype/paytype/paytype.html"><button>Buy Now</button></a>
+      </div>
+    </header>
+
+    <!--  -->
+
+    <div class="container">
+      <i onclick="poplogino()" class="fa-solid fa-xmark"></i>
+      <div class="tabs">
+        <div class="Sign-in" onclick="signin()">Sign in</div>
+        <div class="Register" onclick="Register()">Register</div>
+      </div>
+      <div class="line1" style="margin-top: -15px"></div>
+      <div class="all">
+        <form class="form2">
+          <div class="email">
+            <label>Username Or Email</label>
+            <input
+              id="user"
+              type="email"
+              placeholder="example@example.com"
+              required
+            />
+          </div>
+          <div class="password">
+            <label>Password</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter your Password"
+              required
+            />
+            <button id="btn-eye">
+              <i class="fa-solid fa-eye-slash icon"></i>
+            </button>
+          </div>
+          <div class="remember-forgot">
+            <label class="remember-label"
+              ><input type="checkbox" />Keep me signed in</label
+            >
+            <a href="#">Lost Your Password?</a>
+          </div>
+          <button onclick="savedata()" type="submit" class="login">
+            sign in
+            <span class="arrow"><ion-icon name="flash"></ion-icon></span>
+          </button>
+        </form>
+      </div>
+      <div class="or">OR</div>
+      <div class="social-media">
+        <button class="facebook">
+          <i class="fa-brands fa-facebook"></i>
+          <p>Login with Facebook</p>
+        </button>
+        <button class="google">
+          <i class="fa-brands fa-google"></i>
+          <p>Login with Google</p>
+        </button>
+      </div>
+    </div>
+    <!--  -->
+
+    <!--  -->
+
+    <div class="resistor">
+      <i onclick="poplogino()" class="fa-solid fa-xmark"></i>
+      <div class="tabs">
+        <div class="Sign-in" onclick="signin()">Sign in</div>
+        <div class="Register1" onclick="Register()">Register</div>
+      </div>
+      <div class="line1" style="margin-top: -15px"></div>
+      <div class="all">
+        <form class="form2">
+          <div class="email">
+            <label>Username Or Email</label>
+            <input
+              id="userNew"
+              type="email"
+              placeholder="example@example.com"
+              required
+            />
+          </div>
+          <div class="password">
+            <label>Password</label>
+            <input
+              type="password"
+              id="password2"
+              placeholder="Enter your Password"
+              required
+            />
+            <button id="btn-eye2">
+              <i class="fa-solid fa-eye-slash icon3"></i>
+            </button>
+          </div>
+          <div class="password">
+            <label>Re-enter Password</label>
+            <input
+              type="password"
+              id="re-password"
+              placeholder="Re-enter your Password"
+              required
+            />
+            <button id="btn-eye1">
+              <i class="fa-solid fa-eye-slash icon1"></i>
+            </button>
+          </div>
+          <button onclick="checkdata()" type="submit" class="login">
+            Login
+            <span class="flash"><ion-icon name="flash"></ion-icon></span>
+          </button>
+        </form>
+      </div>
+      <div class="or">OR</div>
+      <div class="social-media">
+        <button class="facebook">
+          <i class="fa-brands fa-facebook"></i>
+          <p>Login with Facebook</p>
+        </button>
+        <button class="google">
+          <i class="fa-brands fa-google"></i>
+          <p>Login with Google</p>
+        </button>
+      </div>
+    </div>
+
+    <!--  -->
+    <!--  -->
+
+    <!--  -->
+    <div class="flex1 section">
+      <div>
+        Dr. Alexandra
+        <p>
+          Expert radiologist dedicated to precision imaging and compassionate
+          patient care.
+        </p>
+        <span
+          ><span><a href="../homepage/index.html">Home</a></span
+          >> Doctor Details</span
+        >
+      </div>
+    </div>
+    <div class="flex2 section">
+      <div>
+        <img class="img1" src="../homepage/images/img17" alt="" />
+        <div>
+          <div class="Biography">Biography</div>
+          <p class="Lorem">
+            Dr. Alexandra Smith is a leading radiologist with over 18 years of
+            experience in diagnostic imaging. She specializes in CT scans, MRIs,
+            X-rays, and ultrasound interpretation, helping patients and doctors
+            reach fast, accurate diagnoses. Her calm and clear communication
+            makes patients feel informed and confident throughout their care.
+          </p>
+          <div class="flex3">
+            <div class="all">
+              <div class="Occupation">Occupation:</div>
+              <br />
+              <br />
+              <div class="Occupation">Experience:</div>
+              <br />
+              <br />
+              <div class="Occupation">Certificates:</div>
+              <br />
+              <br />
+              <div class="Occupation">Location:</div>
+              <br />
+              <br />
+              <div class="Occupation">Skills:</div>
+              <br />
+              <br />
+              <div class="Occupation">Phone:</div>
+              <br />
+              <br />
+              <div class="Occupation">Email:</div>
+            </div>
+            <div class="all2">
+              <div class="Nephrology">Radiology</div>
+              <br />
+              <br />
+              <div class="Nephrology">18 years</div>
+              <br />
+              <br />
+              <div class="Nephrology">
+                Edison Awards, Radiology Excellence Medal
+              </div>
+              <br />
+              <br />
+              <div class="Nephrology">
+                Diagnostic imaging and image-guided procedures
+              </div>
+              <br />
+              <br />
+              <div class="Nephrology">142 King Street, Sydney</div>
+              <br />
+              <br />
+              <div class="Nephrology">+1 (320) 456-8802</div>
+              <br />
+              <br />
+              <div class="Nephrology">alexandra@smithclinic.com</div>
+            </div>
+          </div>
+          <div class="Biography">Awards & Hours</div>
+          <p class="Lorem">
+            Dr. Alexandra has been honored for her innovation and excellence in
+            the field of radiology. She is known for combining high technical
+            skill with deep compassion for her patients.
+          </p>
+          <div class="flex4">
+            <div class="flex5">
+              <div class="img2">
+                <img src="images/img2" alt="" />
+              </div>
+              <div class="Robert">Radiology Excellence Medal </div>
+              <div class="Canadian">National Health Association</div>
+            </div>
+            <div class="flex5">
+              <div class="img2">
+                <img src="images/img3" alt="" />
+              </div>
+              <div class="Robert">Edison Awards</div>
+              <div class="Research">Innovation in Medical Imaging</div>
+            </div>
+          </div>
+          <div class="Biography">My Skills</div>
+          <p class="Lorem2">
+            Dr. Alexandra’s strengths lie in accuracy, patient care, and advanced imaging interpretation.
+          </p>
+          <div class="represent">
+            <div class="all3">Empathy</div>
+            <div class="all4">95%</div>
+          </div>
+          <div class="line"></div>
+          <div class="represent">
+            <div class="all3">Technique</div>
+            <div class="all4">92%</div>
+          </div>
+          <div class="line2"></div>
+
+          <div class="represent">
+            <div class="all3">Operation</div>
+            <div class="all4">94%</div>
+          </div>
+          <div class="line3"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex7 section">
+      <div class="section6">
+        <div class="section6-info">
+          <h2>
+            Get Quick Free <br />
+            Professional Consultation
+          </h2>
+          <div class="section6-info-details-1">
+            <img src="../images/clock (2) 1.svg" class="logo-3" alt="" />
+            <div class="text-3">Mon-Fri : <span> 9:00 am - 10:00 pm</span></div>
+            <div class="text-3">Sat-Sun : <span> 9:00 am - 8:00 pm</span></div>
+          </div>
+          <div class="section6-info-details-2">
+            <img src="../images/Group.svg" alt="" class="logo-3" />
+            <div class="text-3">Phone : <span>+(690) 2560 0020</span></div>
+            <div class="text-3">
+              Email : <span>booking@healthpoint.com</span>
+            </div>
+          </div>
+          <div class="section6-info-details-3">
+            <img src="../images/Group (1).svg" alt="" class="logo-3" />
+            <div class="text-3">
+              Address :
+              <span
+                >Healthpoint <br />
+                4263 Wilkinson Street <br />Tennessee</span
+              >
+            </div>
+          </div>
+          <a href="../../project mido/contact/contact.html" class="btn">View location Map</a>
+        </div>
+        <div class="empty">
+          <form action="">
+            <div class="section6-form">
+              <div>
+                <label for="Full">Name</label>
+                <input id="Full" type="text" placeholder="Full Name" required />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="Email address"
+                  required
+                  class="left"
+                />
+              </div>
+
+              <div>
+                <label for="Phone">Phone</label>
+                <input id="Phone" type="text" placeholder="Phone" />
+              </div>
+              <div>
+                <label for="Departement">Department</label>
+                <input
+                  id="Departement"
+                  type="text"
+                  placeholder="Departement"
+                  class="left"
+                />
+              </div>
+
+              <div>
+                <label for="email">Time</label>
+                <input
+                  id="email"
+                  type="time"
+                  placeholder="Phone Number"
+                  required
+                />
+              </div>
+              <div>
+                <label for="time">The Date</label>
+                <input id="time" type="date" placeholder="Time" />
+              </div>
+              <div class="Message">
+                <label for="Message">Message</label>
+                <textarea
+                  itemid="Message"
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="section">
+      <div class="footer-container">
+        <div class="final">
+          <img src="../images/Vector.svg" alt="" />
+          <span>Healthpoint</span>
+          <p>
+            We deliver trusted healthcare information and services <br>
+            to explore the latest in medical innovation and care.
+          </p>
+          <div class="email">
+            <input type="email" placeholder="Email address">
+            <a href="#">subscribe</a>
+          </div>
+        </div>
+        <div class="quick-links">
+          <p>Quick Links</p>
+          <div class="quick-links-items-list">
+            <a class="quick-links-item" href="../homepage/index.html">Home</a><br />
+            <a class="quick-links-item" href="../../clinck/HTML/Doctors.html">Doctors</a><br />
+            <a class="quick-links-item" href="../../clinck/HTML/AboutUs.html">About Us</a><br />
+            <a class="quick-links-item" href="../../clinck/HTML/Services.html">Services</a><br />
+            <a class="quick-links-item" href="../../project mido/contact/contact.html">Contact Us</a><br />
+            <a class="quick-links-item" href="../../project mido/blog/blog.html">Blog</a><br />
+          </div>
+        </div>
+        <div class="our-brands">
+          <p>Departments</p>
+          <ul>
+            <li>Cardiology</li>
+            <li>Sports Injury</li>
+            <li>Radiology</li>
+            <li>Lung Diseases</li>
+            <li>Gynecology</li>
+            <li>Eye Care</li>
+          </ul>
+        </div>
+        <div class="socials " style="margin-top:0;">
+          <p>Our Mobile App</p>
+          <div class="social-icon-box">
+            <i class="fa-brands fa-apple apple-logo"></i>
+            <a href="https://www.apple.com/app-store/" class="download-button-text">
+              <p>Download on the Apple Store</p>
+            </a>
+          </div>
+          <div class="social-icon-box">
+            <i class="fa-brands fa-google-play google-play-logo"></i>
+            <a href="https://play.google.com/store/games?device=windows" class="download-button-text">
+              <p>Get it on Google Play</p>
+            </a>
+          </div>
+          <p>Connect With Us</p>
+          <div class="social-connect-icons">
+            <a href="https://www.facebook.com/">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://x.com/"> <i class="fa-brands fa-twitter"></i> </a>
+            <a href="https://www.instagram.com/">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+    
+        <div class="copy-right-div">
+          <p id="copy-right">© 2025 Healthpoint.com. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="../homepage/js/main.js"></script>
+  </body>
+</html>

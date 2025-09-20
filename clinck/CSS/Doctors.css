@@ -1,0 +1,368 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.section {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.6s ease-out;
+}
+
+.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+:root {
+  --main-color: #effbff;
+  --Secondary-color: #2f73f2;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  z-index: 5;
+  position: relative;
+}
+.main-image {
+  position: absolute;
+  z-index: -1;
+  margin-top: 100px;
+  width: 100%;
+}
+header div {
+  margin: 30px 10px 10px;
+  height: 70px;
+  width: 1134px;
+  display: flex;
+  gap: 10px;
+  position: relative;
+}
+
+header div div {
+  height: 37px;
+  width: 207px;
+}
+
+header div img {
+  height: 37px;
+  width: 43.1px;
+}
+
+header div span {
+  font-size: 40px;
+  height: 37px;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+header ul {
+  list-style: none;
+  color: black;
+  display: flex;
+  margin: 12px;
+  gap: 62px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+
+i.fa-bars-staggered {
+  display: none;
+  position: absolute;
+  left: 25px;
+  font-size: 25px;
+  bottom: 37px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+header a button {
+  width: 114px;
+  height: 48px;
+  background-color: var(--Secondary-color);
+  border-radius: 4px;
+  outline: none;
+  border: 0;
+  position: absolute;
+  right: -20px;
+  top: -2.5px;
+  color: #ffffff;
+}
+
+.this2 {
+  width: 270px;
+}
+
+
+.section1 {
+  position: relative;
+  top: 100px;
+  width: 100%;
+  height: 700px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.section1 h1 {
+  font-size: 69px;
+  margin-bottom: 16px;
+}
+
+.p1-section1 {
+  font-size: 16px;
+  margin-bottom: 24px;
+  max-width: 450px;
+  line-height: 1.5;
+}
+
+.section1 .Home-link {
+  font-size: 20px;
+}
+
+.section1 .Home-link a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.section1 .Home-link a:hover {
+  color: #00a3ff;
+  transition: 0.3s;
+}
+.section2{
+    margin-top: 3%;
+    background-color: white;
+    position: relative;
+}
+.doctors{
+   display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: end;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    height: 1200px;
+}
+
+.doctors a{
+  text-decoration: none;
+}
+.doctors h2{
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    margin-top: 20px;
+}
+.doctors p{
+    font-size: 15px;
+    color: #000;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 20%;
+}
+.section2 .btn{
+  width: 150px;
+  height: 50px;
+  background-color:white;
+  color:#2f73f2;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 500;
+  border: 1px solid #2f73f2;
+margin: -100px auto 100px;
+
+}
+.section2 .btn:hover{
+  background-color: #2f73f2;
+  color: white;
+  transition: 0.3s;
+  scale: 1.15;
+  cursor: pointer;
+}
+@media (max-width: 1024px) {
+  header div {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .doctors {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section6 {
+    flex-direction: column;
+  }
+
+  .section6 .section6-info,
+  .section6 .empty {
+    width: 100%;
+    height: auto;
+  }
+
+  form {
+    position: static;
+    width: 90%;
+    margin: 20px auto;
+    left: 0;
+    top: 0;
+    height: 552px;
+  }
+
+  form textarea {
+    position: static;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  form button {
+    position: static;
+    display: block;
+    margin: 20px auto 0;
+  }
+
+  .section2 .btn {
+    position: static;
+    margin: 30px auto;
+    left: auto;
+  }
+
+  .section6-info .btn {
+    position: static;
+    margin: 20px auto 0;
+  }
+}
+
+@media (max-width: 768px) {
+  header ul {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  header div {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .section1 h1 {
+    font-size: 45px;
+  }
+
+  .section1 {
+    padding: 40px 20px;
+  }
+
+  .doctors {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .section6-info-details-1,
+  .section6-info-details-2,
+  .section6-info-details-3 {
+    position: static;
+    margin: 20px;
+  }
+
+  .section6-info h2 {
+    position: static;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .section6-info span,
+  .section6-info img {
+    display: inline-block;
+    margin: 10px 0;
+  }
+}
+@media (max-width: 480px) {
+  .section1 h1 {
+    font-size: 32px;
+  }
+
+  .p1-section1 {
+    font-size: 14px;
+  }
+
+  .section1 .Home-link {
+    font-size: 16px;
+  }
+
+  header div span {
+    font-size: 30px;
+  }
+
+  header a button {
+    width: 100px;
+    height: 40px;
+    right: 0;
+    top: 0;
+  }
+
+  .section6-info-details-1 img,
+  .section6-info-details-2 img,
+  .section6-info-details-3 img {
+    display: none;
+  }
+
+  form input {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  form textarea {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  header ul {
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    border-top: 1px solid #ccc;
+  }
+
+  header ul.show {
+    display: flex;
+  }
+
+  i.fa-bars-staggered {
+    display: block;
+  }
+
+  header a button {
+    position: static;
+    margin-left: auto;
+  }
+
+  header div {
+    flex-wrap: wrap;
+  }
+}

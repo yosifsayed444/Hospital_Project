@@ -1,0 +1,281 @@
+footer {
+    background-color: white;
+    width: 100%;
+    min-width: 1700px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+  
+  .footer-container {
+    left: 50%;
+  }
+  
+  .quick-links {
+    width: 256px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .quick-links p {
+    color: var(--main-background-color);
+    font-size: 20px;
+    font-weight: 500px;
+    margin: 20px 0px;
+  }
+  
+  .quick-links a {
+    color: var(--main-background-color);
+    text-decoration: none;
+    height: 27px;
+    display: inline-block;
+    margin-bottom: 1px;
+    font-weight: 400;
+    font-size: 15px;
+    transition-duration: 0.3s;
+    opacity: 0.7;
+  }
+  
+  .quick-links a:hover {
+    color:#1877f2;
+    transition: 0.3s;
+  }
+  
+  .quick-links-items-list {
+    height: 230px;
+    padding: 12px 0px;
+    margin: 16px 0px;
+  }
+  
+  .quick-links-item {
+    width: auto;
+  }
+  
+  .our-brands {
+    width: 285px;
+    color: var(--main-background-color);
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .our-brands p {
+    color: var(--main-background-color);
+    font-size: 20px;
+    font-weight: 500px;
+    margin: 20px 0px;
+  }
+  
+  .our-brands ul {
+    list-style-type: none;
+    padding: 12px 0px;
+  }
+  
+  .our-brands li {
+    text-decoration: none;
+    height: 20px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    opacity: 0.7;
+  }
+  
+  .socials {
+    width: 200px;
+    font-size: 20px;
+    font-weight: 500;
+    float: right;
+    margin-top: 3%;
+  }
+  
+  .socials p {
+    text-align: center;
+  }
+  
+  .download-button-text {
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--main-background-color);
+    font-weight: 400;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+  }
+  
+  .social-icon-box {
+    height: 60px;
+    background-color: #ffffff07;
+    margin-bottom: 10px;
+    border-radius: 16px;
+    padding: 0px 25px;
+    display: flex;
+    align-items: center;
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+  
+  .social-icon-box .google-play-logo {
+    width: 25px;
+    display: inline;
+    vertical-align: middle;
+    margin-right: 12px;
+  }
+  
+  .social-icon-box:hover {
+    background-color: blue;
+    color: white;
+  }
+  
+  .social-icon-box:hover,
+  .social-icon-box:hover a,
+  .social-icon-box:hover p {
+    color:white;
+    transition: 0.3s;
+    scale: 1.1;
+  }
+  
+  .social-icon-box .apple-logo {
+    width: 25px;
+    scale: 1.25;
+    display: inline;
+    vertical-align: middle;
+    margin-right: 12px;
+  }
+  
+  .social-connect-icons {
+    display: flex;
+    /* width: 220px; */
+    justify-content: space-between;
+  }
+  
+  .social-connect-icons i {
+    height: 15px;
+    color:#1877f2;
+    transition-duration: 0.3s;
+    margin-top: 10px;
+  }
+  
+  .fa-facebook-f:hover {
+    color: #1877f2;
+  }
+  
+  .fa-instagram:hover {
+    color: #e4405f;
+  }
+  
+  .fa-twitter:hover {
+    color: #1da1f2;
+  }
+  
+  .fa-linkedin-in:hover {
+    color: #0077b5;
+  }
+  
+  .social-connect-icons a {
+    text-decoration: none;
+  }
+  
+  
+  #copy-right {
+    color: var(--main-background-color);
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0px;
+  }
+  
+  .copy-right-div {
+    position: absolute;
+  }
+  .final{
+    position: absolute;
+  }
+  .final span{
+    font-size: 40px;
+    height: 37px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+  }
+  .final img{
+    height: 37px;
+    width: 43.1px;
+    position: absolute;
+    left: -4%;
+  }
+  .final p{
+    margin-top: 7%;
+    opacity: 0.7;
+    line-height: 1.8;
+  }
+  .final .email{
+      margin-top: 6%;
+  }
+.final a{
+  width: 146px;
+  height: 48px;
+  background-color: #2f73f2;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 500;
+  left: 63%;
+  position: absolute;
+  top: 75%;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.final a:hover {
+  background-color: #ffffff;
+  color: #2f73f2;
+  border: 1px solid #2f73f2;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.email input{
+    width: 98%;
+    height: 47px;
+    opacity: 0.5;
+    border-radius: 8px;
+}
+.final{
+    position: absolute;
+    left: 13%;
+  
+}
+.email input::placeholder{
+    left:20px;
+    position: absolute;
+}
+input:focus{
+    border-color: #2f73f2;
+    outline: none;
+    background: #fff;
+}
+.footer-container{
+    margin-left: 39%;
+}
+footer{
+    margin-top: 4%;
+}
+.copy-right-div {
+    left: 13%;
+    margin-top: -60px;
+}
+input {
+    width: 256px;
+    height: 45px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-family: inherit;
+    box-sizing: border-box;
+    padding: 19px;
+  }
+  
+ input:focus{
+    border-color: #2f73f2;
+    outline: none;
+    background: #fff;
+}

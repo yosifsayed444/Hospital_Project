@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="../../hospital project/Cardiology/css/login.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="../blog/css/footer_boldozer.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet" />
+    
+</head>
+<body>
+   
+    <header>
+      <div>
+        <i class="fa-solid fa-bars-staggered"></i>
+        <img src="image/Vector.png" alt="" />
+        <span> <a href="../../hospital project/homepage/index.html">Healthpoint</a></span>
+
+        <ul>
+          <li><a href="../../clinck/HTML/Services.html">Services</a></li>
+          <li><a href="../../clinck/HTML/Doctors.html">Doctors</a></li>
+          <li><a href="../blog/blog.html">Blog</a></li>
+          <li><a href="../../clinck/HTML/AboutUs.html">About</a></li>
+          <li><a href="../contact/contact.html">Contact</a></li>
+          <li class="lin" onclick="poplogin()">Sign in</li>
+        </ul>
+        <a href="../../hospital project/paytype/paytype/paytype.html"><button>Buy Now</button></a>
+      </div>
+    </header>
+
+    <!--  -->
+
+    <div class="container">
+      <i onclick="poplogino()" class="fa-solid fa-xmark"></i>
+      <div class="tabs">
+        <div class="Sign-in" onclick="signin()">Sign in</div>
+        <div class="Register" onclick="Register()">Register</div>
+      </div>
+      <div class="line1" style="margin-top: -15px"></div>
+      <div class="all">
+        <form class="form2">
+          <div class="email">
+            <label>Username Or Email</label>
+            <input
+              id="user"
+              type="email"
+              placeholder="example@example.com"
+              required
+            />
+          </div>
+          <div class="password">
+            <label>Password</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter your Password"
+              required
+            />
+            <button id="btn-eye">
+              <i class="fa-solid fa-eye-slash icon"></i>
+            </button>
+          </div>
+          <div class="remember-forgot">
+            <label class="remember-label"
+              ><input type="checkbox" />Keep me signed in</label
+            >
+            <a href="#">Lost Your Password?</a>
+          </div>
+          <button onclick="savedata()" type="submit" class="login">
+            sign in
+            <span class="arrow"><ion-icon name="flash"></ion-icon></span>
+          </button>
+        </form>
+      </div>
+      <div class="or">OR</div>
+      <div class="social-media">
+        <button class="facebook">
+          <i class="fa-brands fa-facebook"></i>
+          <p>Login with Facebook</p>
+        </button>
+        <button class="google">
+          <i class="fa-brands fa-google"></i>
+          <p>Login with Google</p>
+        </button>
+      </div>
+    </div>
+    <!--  -->
+
+    <!--  -->
+
+    <div class="resistor">
+      <i onclick="poplogino()" class="fa-solid fa-xmark"></i>
+      <div class="tabs">
+        <div class="Sign-in" onclick="signin()">Sign in</div>
+        <div class="Register1" onclick="Register()">Register</div>
+      </div>
+      <div class="line1" style="margin-top: -15px"></div>
+      <div class="all">
+        <form class="form2">
+          <div class="email">
+            <label>Username Or Email</label>
+            <input
+              id="userNew"
+              type="email"
+              placeholder="example@example.com"
+              required
+            />
+          </div>
+          <div class="password">
+            <label>Password</label>
+            <input
+              type="password"
+              id="password2"
+              placeholder="Enter your Password"
+              required
+            />
+            <button id="btn-eye2">
+              <i class="fa-solid fa-eye-slash icon3"></i>
+            </button>
+          </div>
+          <div class="password">
+            <label>Re-enter Password</label>
+            <input
+              type="password"
+              id="re-password"
+              placeholder="Re-enter your Password"
+              required
+            />
+            <button id="btn-eye1">
+              <i class="fa-solid fa-eye-slash icon1"></i>
+            </button>
+          </div>
+          <button onclick="checkdata()" type="submit" class="login">
+            Login
+            <span class="flash"><ion-icon name="flash"></ion-icon></span>
+          </button>
+        </form>
+      </div>
+      <div class="or">OR</div>
+      <div class="social-media">
+        <button class="facebook">
+          <i class="fa-brands fa-facebook"></i>
+          <p>Login with Facebook</p>
+        </button>
+        <button class="google">
+          <i class="fa-brands fa-google"></i>
+          <p>Login with Google</p>
+        </button>
+      </div>
+    </div>
+
+    <!--  -->
+    <!--  -->
+
+    <!--  -->
+    <div class="flex1 section">
+        
+      <div>
+        Contact Us
+        <p>
+          We’d love to hear from you. Reach out to us with any questions, feedback, or inquiries
+        </p>
+        <span
+          ><span><a href="../../hospital project/homepage/index.html">Home</a></span
+          >> Contact Us</span
+        >
+      </div>
+    </div>
+    <div class="sec3 section">
+        <div class="container9">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3460.036848713519!2d31.310560875881364!3d29.863211127134175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458368becfaa68d%3A0xb8a6f7d9576f81f8!2z2YPZhNmK2Kkg2KfZhNit2KfYs9io2KfYqiDZiNin2YTYsNmD2KfYoSDYp9mE2KfYtdi32YbYp9i52YrYjCDYrNin2YXYudipINit2YTZiNin2YY!5e0!3m2!1sen!2seg!4v1745159116825!5m2!1sen!2seg" frameborder="0"></iframe>
+        </div>
+    </div>
+    <hr style="margin-bottom: 70px; opacity: 0.2;">
+    <div class="sec4 section">
+        <div class="container9">
+            <div class="contact">
+                <div class="input">
+                    <h1>Get Online Consultation</h1>
+                    <div class="form">
+                        <div>
+                            <label for="name">first name</label>
+                            <input id="name" type="text">
+                        </div>
+                        <div>
+                            <label for="last name">last name</label>
+                            <input id="last name" type="text">
+                        </div>    
+                        <div>
+                            <label for="email">Email address</label>
+                            <input id="email" type="email">
+                        </div>
+                        <div>
+                            <label for="selected">specialist</label>
+                            <select id="selected" name="doctor_type">
+                                <option value="">choose specialist</option>
+                                <option value="specialist">Specialist </option>
+                                <option value="consultant">Consultant </option>
+                                <option value="surgeon">Surgeon </option>
+                                <option value="gp">General Practitioner </option>
+                                <option value="physician">Physician </option>
+                            </select>
+                        </div>
+                        <div>    
+                            <label for="date">Date</label>
+                            <input id="date" type="date">
+                        </div>
+                        <div>
+                            <label for="time">Time</label>
+                            <input id="time" type="time">
+                        </div>
+                        <div class="bottun-click">
+                            <button onclick="showbooking()">Make an appointment</button>
+                            <p id="booking"> Booking Confirmed </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-1">
+                    <img src="image/Rectangle 766.png" style=" width:500px; height: 600px;" alt="">
+                </div>
+            </div>    
+        </div>
+    </div>
+    <footer class="section">
+        <div class="footer-container">
+            <div class="final">
+                <img src="./image/Vector.png" alt="" />
+                <span>Healthpoint</span>
+                <p>
+                    We deliver trusted healthcare information and services <br>
+                    to explore the latest in medical innovation and care.
+                </p>
+                <div class="email">
+                    <input type="email" placeholder="Email address">
+                    <a href="#">subscribe</a>
+                </div>
+            </div>
+            <div class="quick-links">
+                <p>Quick Links</p>
+                <div class="quick-links-items-list">
+                    <a class="quick-links-item" href="../../hospital project/homepage/index.html">Home</a><br />
+                    <a class="quick-links-item" href="../../clinck/HTML/Doctors.html">Doctors</a><br />
+                    <a class="quick-links-item" href="../../clinck/HTML/AboutUs.html">About Us</a><br />
+                    <a class="quick-links-item" href="../../clinck/HTML/Services.html">Services</a><br />
+                    <a class="quick-links-item" href="../contact/contact.html">Contact Us</a><br />
+                    <a class="quick-links-item" href="../blog/blog.html">Blog</a><br />
+                </div>
+            </div>
+            <div class="our-brands">
+                <p>Departments</p>
+                <ul>
+                    <li>Cardiology</li>
+                    <li>Sports Injury</li>
+                    <li>Radiology</li>
+                    <li>Lung Diseases</li>
+                    <li>Gynecology</li>
+                    <li>Eye Care</li>
+                </ul>
+            </div>
+            <div class="socials" style="margin-top: 0;">
+                <p>Our Mobile App</p>
+                <div class="social-icon-box">
+                    <i class="fa-brands fa-apple apple-logo"></i>
+                    <a href="https://www.apple.com/app-store/" class="download-button-text">
+                        <p>Download on the Apple Store</p>
+                    </a>
+                </div>
+                <div class="social-icon-box">
+                    <i class="fa-brands fa-google-play google-play-logo"></i>
+                    <a href="https://play.google.com/store/games?device=windows" class="download-button-text">
+                        <p>Get it on Google Play</p>
+                    </a>
+                </div>
+                <p>Connect With Us</p>
+                <div class="social-connect-icons">
+                    <a href="https://www.facebook.com/">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://x.com/"> <i class="fa-brands fa-twitter"></i> </a>
+                    <a href="https://www.instagram.com/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="copy-right-div">
+                <p id="copy-right">© 2025 Healthpoint.com. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../../hospital project/homepage/js/main.js"></script>
+</body>
+</html>

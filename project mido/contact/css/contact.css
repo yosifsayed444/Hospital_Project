@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  background-color: #f5f5f5;
+}
+:root {
+  --main-color: #e0f7ff;
+  --Secondary-color: white;
+  --third-color: #2f73f2;
+}
+a {
+  text-decoration: none;
+}
+.container9 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+
+.flex1 {
+  background-image: url(../image/Rectangle\ 720.png);
+  background-size: 100% 150%;
+  margin-top: 450px;
+}
+.flex1 a {
+color: #049cff  !important;
+}
+
+
+.sec3 .container9 iframe {
+  margin-bottom: 36px;
+  position: relative;
+  width: 1000px;
+  height: 400px;
+}
+.sec3 .container9 .image {
+  position: absolute;
+  bottom: 120px;
+  left: 620px;
+  margin-bottom: 0;
+  z-index: 3;
+}
+.sec3 .container9 .image img:nth-child(1) {
+  position: relative;
+  top: -7px;
+  left: 27px;
+  z-index: 2;
+}
+.sec3 .container9 .image img:nth-child(3) {
+  position: relative;
+  top: 8px;
+  left: -43px;
+  z-index: 1;
+}
+.sec4 .container9 .contact {
+  display: grid;
+  grid-template-columns: 450px 500px;
+  gap: 50px;
+}
+.sec4 .container9 .contact .input .form {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  gap: 50px;
+}
+.sec4 .container9 .contact .input .form input {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #c0d5fb;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #000;
+  margin-top: 15px;
+}
+.sec4 .container9 .contact .input .form select {
+  width: 200px;
+  height: 40px;
+  font-size: 16px;
+  border: 1px solid #c0d5fb;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #000;
+  margin-top: 15px;
+}
+.sec4 .container9 .contact .input h1 {
+  margin-bottom: 50px;
+}
+.sec4 .container9 .contact .input .form .bottun-click button {
+  width: 200px;
+  height: 50px;
+  background-color: #3187f4;
+  outline: none;
+  border-radius: 5px;
+  color: var(--Secondary-color);
+  border: none;
+  cursor: pointer;
+}
+.sec4 .container9 .contact .input .form .bottun-click p {
+  color: green;
+  font-size: large;
+  font-weight: 600;
+  animation: show 2s ease-in-out 0 forwards;
+  animation-iteration-count: infinite;
+  display: none;
+}
+
+@keyframes show {
+  25% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.final {
+  margin-top: 10px;
+}

@@ -1,0 +1,138 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #effbff;
+  box-shadow: 0px -10px 20px 0px black;
+  top: 0;
+  height: 100px;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 5;
+  transition: top 0.5s;
+}
+
+header div {
+  margin: 30px 10px 10px;
+  height: 70px;
+  width: 1134px;
+  display: flex;
+  gap: 10px;
+  position: relative;
+}
+
+header div div {
+  height: 37px;
+  width: 207px;
+}
+
+header div img {
+  height: 37px;
+  width: 43.1px;
+}
+
+header div span {
+  font-size: 40px;
+  height: 37px;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+header div span a {
+  text-decoration: none;
+  color: black;
+}
+
+header ul {
+  list-style: none;
+  color: black;
+  display: flex;
+  margin: 12px;
+  gap: 62px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+header ul li:hover {
+  opacity: 0.5;
+  transition: 0.4s;
+  transform: scale(1.1);
+}
+
+i.fa-bars-staggered {
+  display: none;
+  position: absolute;
+  left: 25px;
+  font-size: 25px;
+  bottom: 37px;
+}
+
+header a button:hover {
+  background-color: #ffffff;
+  color: #2f73f2;
+  border: 1px solid #2f73f2;
+  transition: 0.3s;
+  scale: 1.11;
+  cursor: pointer;
+}
+header a button {
+  width: 114px;
+  height: 48px;
+  background-color: #2f73f2;
+  border-radius: 4px;
+  outline: none;
+  border: 0;
+  position: absolute;
+  right: -20px;
+  top: -2.5px;
+  color: #ffffff;
+}
+
+.lin {
+  font-size: 17px;
+  cursor: pointer;
+}
+
+/*  */
+
+.section {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.6s ease-out;
+}
+
+.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.flex1 {
+  margin-top: 110px;
+  margin-bottom: 50px;
+  background-color: var(--main-color);
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+.flex1 div {
+  font-weight: bold;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.flex1 a {
+  text-decoration: none;
+  color: #879aac;
+}
+.flex1 span,
+.flex1 p {
+  width: 456px;
+  font-weight: normal;
+  font-size: 20px;
+}
